@@ -104,14 +104,14 @@ function buildUi() {
     let $hueIcon = $('<div>')
         .addClass('hue-icon')
         .css({
-          backgroundColor: colors[hue]['500'].color
+          backgroundColor: colors[hue]['50'].color
         })
         .appendTo($hue);
 
     $('<div>')
         .addClass('hue-icon-selector')
         .css({
-          backgroundColor: colors[hue]['700'].color
+          backgroundColor: colors[hue]['50'].color
         })
         .appendTo($hueIcon);
 
